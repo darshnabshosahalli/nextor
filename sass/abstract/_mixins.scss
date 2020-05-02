@@ -1,0 +1,23 @@
+// media query manager
+@mixin  respond($screen){
+    @if $screen == tablet-port {
+        @media only screen and (min-width: $tablet-port) {
+            @content;
+        }   
+    }
+    @if $screen == tablet-land {
+        @media only screen and (min-width: $tablet-land) {
+            @content;
+        }   
+    }
+    @if $screen == desktop {
+        @media only screen and (min-width: $desktop) {
+            @content;
+        }   
+    }
+    @if $screen == big-screen {
+        @media only screen and (min-width: $big-screen) {
+            @content;
+        }   
+    }
+}

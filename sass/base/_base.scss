@@ -1,0 +1,14 @@
+// universal preset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// html preset
+html {
+    font-size: 62.5%;
+    font-family: $font-primary;
+}

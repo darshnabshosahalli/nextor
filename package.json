@@ -1,0 +1,27 @@
+{
+  "name": "nextor",
+  "version": "1.0.0",
+  "description": "grids,flexbox,sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshnabshosahalli/nextor.git"
+  },
+  "keywords": [
+    "grids",
+    "flexbox"
+  ],
+  "author": "darshan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darshnabshosahalli/nextor/issues"
+  },
+  "homepage": "https://github.com/darshnabshosahalli/nextor#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
